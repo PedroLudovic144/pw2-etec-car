@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pw2-etec-car.iml" filepath="$PROJECT_DIR$/.idea/pw2-etec-car.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pw2-etec-car/pw2-etec-car/pw2-etec-car.iml" filepath="$PROJECT_DIR$/pw2-etec-car/pw2-etec-car/pw2-etec-car.iml" />
     </modules>
   </component>
 </project>
