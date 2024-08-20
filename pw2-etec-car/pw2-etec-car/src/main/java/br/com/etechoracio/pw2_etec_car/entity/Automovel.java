@@ -38,8 +38,15 @@ import java.util.List;
         @ManyToOne
         private Modelo idModelo;
 
-        @Transient
+        @ManyToMany
+        @JoinTable(name = "TBL_REL_AUTOMOVEL_ACESSORIO",
+                joinColumns = @JoinColumn(name = "ID_AUTOMOVEL"),
+                inverseJoinColumns = @JoinColumn(name = "ID_ACESSORIO")
+        )
         private List<Acessorios> acessorios;
 
     }
-
+/*
+* @Transiente = tabela que não tem no banco de dados
+*
+* */
